@@ -1,2 +1,2 @@
 # SimpleTreeNode
-Very simple TreeNode&lt;T> class for .NET
+Very simple `TreeNode<T>` class for .NET
