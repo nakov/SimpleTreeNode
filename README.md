@@ -1,5 +1,5 @@
 # SimpleTreeNode
-Very simple `TreeNode<T>` class for .NET
+Very simple `TreeNode<T>` class for .NET.
 
 ## Usage Example
 
