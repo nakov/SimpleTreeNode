@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net20</TargetFrameworks>
+    <OutputType>Library</OutputType>
+    <Authors>Svetlin Nakov</Authors>
+    <Company>SoftUni</Company>
+    <Version>1.0.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Very simple tree library, holding a class TreeNode&lt;T&gt;. Usage:
+var peopleTree = new TreeNode&lt;string&gt;("Boss",
+    new TreeNode&lt;string&gt;("Steve",
+        new TreeNode&lt;string&gt;("Maria")
+    ),
+    new TreeNode&lt;string&gt;("Peter")
+);
+
+Console.WriteLine(peopleTree);</Description>
+    <Copyright>(c) 2021 by Svetlin Nakov</Copyright>
+    <PackageProjectUrl>https://github.com/nakov/SimpleTreeNode</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nakov/SimpleTreeNode</RepositoryUrl>
+    <PackageTags>TreeNode&lt;T&gt;, tree, data structure</PackageTags>
+    <PackageIcon>SimpleTreeNode-icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReleaseNotes>
+
+This package is released for educational purposes.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="SimpleTreeNode-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
